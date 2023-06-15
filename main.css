@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+body {
+   background-color: #f2f2f2; /*  background color of the body */
+    font-family: Arial, sans-serif; /*  font family for the text */
+    margin: 0;/* Remove default margin */
+    padding: 20px; /* Add padding around the body */
+    text-align: center;
+  }
+
+  h1 {
+    color: #333;/* color of the heading text */
+    font-size: 24px;/* font size of the heading */
+    margin-bottom: 20px; /*  bottom margin to the heading */
+  }
+  
+  button {
+    background-color: #4caf50;/*  background color of the buttons */
+    border: none; /* Remove button border */
+    border-radius: 4px;/* border radius to create rounded corners */
+    color: white; /*  text color of the buttons */
+    cursor: pointer; 
+    font-size: 16px;/*font size of the buttons */
+    margin: 10px;/*  margin around the buttons */
+    padding: 10px 20px; /* padding inside the buttons */
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;/* background color on hover */
+  }
+  
+  #storyOutput {
+    background-color: #fff;/*  background color of the story output */
+    border: 1px solid #ccc;/*  border around the story output */
+    border-radius: 4px;/*  border radius to create rounded corners */
+    margin: 20px auto;/* Center align the story output and  margin */
+    max-width: 600px;/* Limit the maximum width of the story output */
+    padding: 20px;/* padding inside the story output */
+    text-align: left; /* Left align the text inside the story output */
+  }
+
+  #storyOutput img {
+    display: inline-block;
+    max-width: 100px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  @media screen and (max-width: 480px) {
+    button {
+      display: block;
+      margin: 10px auto;
+    }
+  }
+  
+ 
+  
